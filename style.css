@@ -1,0 +1,79 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: "Noto Sans KR", sans-serif;
+     background: #eef2f7;
+     line-height: 1.6;
+ }
+
+ .wrap {
+     max-width: 900px;
+     margin: 30px auto;
+     padding: 20px;
+ }
+
+ /* 상단 제목 스타일 */
+ #pageTitle {
+     font-size: 24px;
+     font-weight: 700;
+     color: #12345a;
+     margin-bottom: 8px;
+ }
+
+ .wrap>p {
+     margin-top: 0;
+     color: #333;
+ }
+
+ .card {
+     background: #fff;
+     border-radius: 10px;
+     margin-bottom: 12px;
+     border: 1px solid #dce3ec;
+     overflow: hidden;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+ }
+
+ .qbtn {
+     width: 100%;
+     padding: 16px 20px;
+     background: #f5f8fc;
+     border: none;
+     text-align: left;
+     font-size: 16px;
+     font-weight: 700;
+     color: #1a3d6e;
+     cursor: pointer;
+     border-bottom: 1px solid #e1e7ef;
+     transition: 0.2s;
+ }
+
+ .qbtn:hover {
+     background: #e8f0fa;
+ }
+
+ .content {
+     padding: 18px 20px;
+     display: none;
+     white-space: pre-wrap;
+     font-size: 15px;
+     color: #1c1c1c;
+ }
+
+ table {
+     margin: 10px auto;
+     text-align: center;
+     border-collapse: collapse;
+     width: 100%;
+     table-layout: fixed;
+ }
+
+ td,
+ th {
+     border: 1px solid #333;
+     padding: 6px 0;
+ }
+
+ th {
+     background-color: #eee;
+ }
